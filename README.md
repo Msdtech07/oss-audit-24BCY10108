@@ -16,7 +16,9 @@ Slot: A-24
 
 
 
-🧩 Project Overview
+##🧩 Project Overview
+
+
 
 This project is a structured audit of the Linux Kernel, one of the most important open-source software systems in the world. The Linux Kernel acts as the core of the operating system, managing hardware, processes, memory, and system resources.
 
