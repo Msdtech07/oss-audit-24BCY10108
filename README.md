@@ -86,5 +86,121 @@ The objective of this project is to:
   └── README.md
 
 
+# Shell Scripts Description
+
+🔹 Script 1 — System Identity Report
+
+Displays:
+
+Kernel version
+
+OS distribution
+
+Logged-in user
+
+System uptime
+
+Date and time
+
+License information
+
+# Concepts used:
+
+Variables
+
+Command substitution ($())
+
+echo formatting
+
+🔹 Script 2 — FOSS Package Inspector
+
+Checks if a package is installed
+
+Displays version and details
+
+Uses case statement for description
+
+# Concepts used:
+
+
+if-else
+
+case
+
+dpkg / rpm
+
+grep
+
+
+Script 3 — Disk and Permission Auditor
+
+Analyzes system directories
+
+Displays:
+
+Size
+
+Permissions
+
+Owner & group
+
+# Concepts used:
+
+
+Arrays
+
+for loop
+
+du, ls -ld, awk
+
+🔹 Script 4 — Log File Analyzer
+
+Reads log file
+
+Counts keyword occurrences (e.g., "error")
+
+Displays last 5 matching lines
+
+# Concepts used:
+
+
+while read loop
+
+Conditional statements
+
+Command-line arguments ($1, $2)
+
+🔹 Script 5 — Open Source Manifesto Generator
+
+Takes user input
+
+Generates a personalized open-source statement
+
+Saves output to a .txt file
+
+# Concepts used:
+
+
+read input
+
+File handling (>, >>)
+
+String concatenation
+
+
+# How to Run Scripts
+
+Step 1: Give permission
+
+->chmod +x script_name.sh
+
+Step 2: Run script
+
+->./script_name.sh
+
+Example:
+
+->./script4_log_analyzer.sh /var/log/syslog error
+
 
 
