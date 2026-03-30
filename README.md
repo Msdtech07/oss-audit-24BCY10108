@@ -6,7 +6,7 @@ Open Source Audit — Linux Kernel
 
 # Student Details
 
-Name: Priyanshu
+Name: Priyanshu Tiwari
 
 Registration Number: 24BCY10108
 
