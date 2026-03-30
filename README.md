@@ -17,60 +17,60 @@ This project is a structured audit of the Linux Kernel, one of the most importan
 
 The objective of this project is to:
 
-Understand the origin and philosophy of open source
+  1.Understand the origin and philosophy of open source
 
-Analyze the GPL v2 license
+  2.Analyze the GPL v2 license
 
-Explore how the Linux Kernel works in a real system
+  3.Explore how the Linux Kernel works in a real system
 
-Study its ecosystem and real-world impact
+  4.Study its ecosystem and real-world impact
 
-Compare it with proprietary alternatives
+  5.Compare it with proprietary alternatives
 
-Demonstrate practical Linux skills using shell scripting
+  6.Demonstrate practical Linux skills using shell scripting
 
 
 @ Key Concepts Covered
 
-Open Source Philosophy
+  1.Open Source Philosophy
 
-GNU General Public License (GPL v2)
+  2.GNU General Public License (GPL v2)
 
-Linux System Architecture
+  3.Linux System Architecture
 
-Kernel Functionality
+  4.Kernel Functionality
 
-FOSS Ecosystem
+  5.FOSS Ecosystem
 
-Shell Scripting (Bash)
+  6.Shell Scripting (Bash)
 
 🐧 Chosen Software
 
 -Linux Kernel
 
-Category: Operating System Kernel
+  Category: Operating System Kernel
 
-License: GPL v2
+  License: GPL v2
 
-Role: Core component of Linux-based systems
+  Role: Core component of Linux-based systems
 
-Repository Structure
+# Repository Structure
 
 .
 
-├── report.pdf
+  ├── report.pdf
 
-├── script1.sh
+  ├── script1.sh
 
-├── script2.sh
+  ├── script2.sh
 
-├── script3.sh
+  ├── script3.sh
 
-├── script4.sh
+  ├── script4.sh
 
-├── script5.sh
+  ├── script5.sh
 
-└── README.md
+  └── README.md
 
 
 
