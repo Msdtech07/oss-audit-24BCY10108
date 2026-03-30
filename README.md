@@ -203,4 +203,20 @@ Example:
 ->./script4_log_analyzer.sh /var/log/syslog error
 
 
+# Requirements
+•	Linux OS (Ubuntu recommended) 
+•	Bash shell 
+•	Basic commands: grep, awk, du, ls, uptime 
+
+# Key Learnings
+•	Open source promotes transparency and collaboration 
+•	GPL v2 ensures freedom of modification and redistribution 
+•	Linux Kernel powers: 
+o	Servers 
+o	Android devices 
+o	Cloud infrastructure 
+o	Supercomputers 
+
+# 📌 Conclusion
+The Linux Kernel is not just software — it is the foundation of modern computing. This project highlights how open-source principles enable large-scale innovation and collaboration.
 
