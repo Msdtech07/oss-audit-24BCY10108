@@ -1,6 +1,7 @@
 # oss-audit-24BCY10108
 Open Source Audit — Linux Kernel
 
+
 👤 Student Details
 
 Name: Priyanshu
@@ -10,6 +11,8 @@ Registration Number: 24BCY10108
 Course: Open Source Software
 
 Slot: A-24
+
+
 
 🧩 Project Overview
 
@@ -30,6 +33,8 @@ The objective of this project is to:
   6.Demonstrate practical Linux skills using shell scripting
 
 
+
+
 @ Key Concepts Covered
 
   1.Open Source Philosophy
@@ -44,6 +49,8 @@ The objective of this project is to:
 
   6.Shell Scripting (Bash)
 
+
+
 🐧 Chosen Software
 
 -Linux Kernel
@@ -53,6 +60,8 @@ The objective of this project is to:
   License: GPL v2
 
   Role: Core component of Linux-based systems
+
+
 
 # Repository Structure
 
