@@ -4,7 +4,7 @@ Open Source Audit — Linux Kernel
 
 
 
-#Student Details
+# Student Details
 
 Name: Priyanshu
 
@@ -16,7 +16,7 @@ Slot: A-24
 
 
 
-##🧩 Project Overview
+# Project Overview
 
 
 
@@ -39,7 +39,7 @@ The objective of this project is to:
 
 
 
-@ Key Concepts Covered
+# Key Concepts Covered
 
   1.Open Source Philosophy
 
@@ -55,7 +55,7 @@ The objective of this project is to:
 
 
 
-🐧 Chosen Software
+# Chosen Software
 
 -Linux Kernel
 
