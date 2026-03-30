@@ -1,5 +1,3 @@
-#script1
-
 #!/bin/bash
 # Script 1: System Identity Report
 # Author: Priyanshu | Reg No: 24BCY10108
@@ -37,4 +35,5 @@ echo "              Public Licence version 2 (GPL v2). This means the"
 echo "              kernel source code is freely available for study,"
 echo "              modification, and redistribution under the same terms."
 echo "========================================="
+
 
