@@ -2,7 +2,7 @@
 Open Source Audit — Linux Kernel
 
 
-👤 Student Details
+#Student Details
 
 Name: Priyanshu
 
