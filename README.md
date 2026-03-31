@@ -1,5 +1,4 @@
 # oss-audit-24BCY10108
-Here’s a clean **README.md content** for your **first project (Linux Kernel Open Source Audit)**. You can copy-paste this directly into your GitHub repo.
 
 ---
 
