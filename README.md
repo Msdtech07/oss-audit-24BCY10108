@@ -1,223 +1,212 @@
 # oss-audit-24BCY10108
-Open Source Audit — Linux Kernel
+Here’s a clean **README.md content** for your **first project (Linux Kernel Open Source Audit)**. You can copy-paste this directly into your GitHub repo.
 
+---
 
+# 📘 Open Source Audit — Linux Kernel
 
+## 👤 Student Details
 
-# Student Details
+* **Name:** Priyanshu
+* **Registration Number:** 24BCY10108
+* **Course:** Open Source Software
+* **Slot:** A-24
 
-Name: Priyanshu Tiwari
+---
 
-Registration Number: 24BCY10108
+## 🧩 Project Overview
 
-Course: Open Source Software
-
-Slot: A-24
-
-
-
-# Project Overview
-
-
-
-This project is a structured audit of the Linux Kernel, one of the most important open-source software systems in the world. The Linux Kernel acts as the core of the operating system, managing hardware, processes, memory, and system resources.
+This project is a structured audit of the **Linux Kernel**, one of the most important open-source software systems in the world. The Linux Kernel acts as the core of the operating system, managing hardware, processes, memory, and system resources.
 
 The objective of this project is to:
 
-  1.Understand the origin and philosophy of open source
+* Understand the **origin and philosophy** of open source
+* Analyze the **GPL v2 license**
+* Explore how the Linux Kernel works in a real system
+* Study its **ecosystem and real-world impact**
+* Compare it with proprietary alternatives
+* Demonstrate practical Linux skills using **shell scripting**
 
-  2.Analyze the GPL v2 license
+---
 
-  3.Explore how the Linux Kernel works in a real system
+## 🧠 Key Concepts Covered
 
-  4.Study its ecosystem and real-world impact
+* Open Source Philosophy
+* GNU General Public License (GPL v2)
+* Linux System Architecture
+* Kernel Functionality
+* FOSS Ecosystem
+* Shell Scripting (Bash)
 
-  5.Compare it with proprietary alternatives
+---
 
-  6.Demonstrate practical Linux skills using shell scripting
+## 🐧 Chosen Software
 
+**Linux Kernel**
 
+* Category: Operating System Kernel
+* License: GPL v2
+* Role: Core component of Linux-based systems
 
+---
 
-# Key Concepts Covered
+## 📂 Repository Structure
 
-  1.Open Source Philosophy
-
-  2.GNU General Public License (GPL v2)
-
-  3.Linux System Architecture
-
-  4.Kernel Functionality
-
-  5.FOSS Ecosystem
-
-  6.Shell Scripting (Bash)
-
-
-
-# Chosen Software
-
--Linux Kernel
-
-  Category: Operating System Kernel
-
-  License: GPL v2
-
-  Role: Core component of Linux-based systems
-
-
-
-# Repository Structure
-
+```bash
 .
+├── report.pdf
+├── script1_system_info.sh
+├── script2_package_inspector.sh
+├── script3_disk_audit.sh
+├── script4_log_analyzer.sh
+├── script5_manifesto_generator.sh
+└── README.md
+```
 
-  ├── report.pdf
+---
 
-  ├── script1.sh
+## ⚙️ Shell Scripts Description
 
-  ├── script2.sh
-
-  ├── script3.sh
-
-  ├── script4.sh
-
-  ├── script5.sh
-
-  └── README.md
-
-
-# Shell Scripts Description
-
-🔹 Script 1 — System Identity Report
+### 🔹 Script 1 — System Identity Report
 
 Displays:
 
-Kernel version
+* Kernel version
+* OS distribution
+* Logged-in user
+* System uptime
+* Date and time
+* License information
 
-OS distribution
+👉 Concepts used:
 
-Logged-in user
+* Variables
+* Command substitution (`$()`)
+* `echo` formatting
 
-System uptime
+---
 
-Date and time
+### 🔹 Script 2 — FOSS Package Inspector
 
-License information
+* Checks if a package is installed
+* Displays version and details
+* Uses `case` statement for description
 
-# Concepts used:
+👉 Concepts used:
 
-Variables
+* `if-else`
+* `case`
+* `dpkg` / `rpm`
+* `grep`
 
-Command substitution ($())
+---
 
-echo formatting
+### 🔹 Script 3 — Disk and Permission Auditor
 
-🔹 Script 2 — FOSS Package Inspector
+* Analyzes system directories
+* Displays:
 
-Checks if a package is installed
+  * Size
+  * Permissions
+  * Owner & group
 
-Displays version and details
+👉 Concepts used:
 
-Uses case statement for description
+* Arrays
+* `for` loop
+* `du`, `ls -ld`, `awk`
 
-# Concepts used:
+---
 
+### 🔹 Script 4 — Log File Analyzer
 
-if-else
+* Reads log file
+* Counts keyword occurrences (e.g., "error")
+* Displays last 5 matching lines
 
-case
+👉 Concepts used:
 
-dpkg / rpm
+* `while read` loop
+* Conditional statements
+* Command-line arguments (`$1`, `$2`)
 
-grep
+---
 
+### 🔹 Script 5 — Open Source Manifesto Generator
 
-Script 3 — Disk and Permission Auditor
+* Takes user input
+* Generates a personalized open-source statement
+* Saves output to a `.txt` file
 
-Analyzes system directories
+👉 Concepts used:
 
-Displays:
+* `read` input
+* File handling (`>`, `>>`)
+* String concatenation
 
-Size
+---
 
-Permissions
+## ▶️ How to Run Scripts
 
-Owner & group
+### Step 1: Give permission
 
-# Concepts used:
+```bash
+chmod +x script_name.sh
+```
 
+### Step 2: Run script
 
-Arrays
+```bash
+./script_name.sh
+```
 
-for loop
+### Example:
 
-du, ls -ld, awk
-
-🔹 Script 4 — Log File Analyzer
-
-Reads log file
-
-Counts keyword occurrences (e.g., "error")
-
-Displays last 5 matching lines
-
-# Concepts used:
-
-
-while read loop
-
-Conditional statements
-
-Command-line arguments ($1, $2)
-
-🔹 Script 5 — Open Source Manifesto Generator
-
-Takes user input
-
-Generates a personalized open-source statement
-
-Saves output to a .txt file
-
-# Concepts used:
-
-
-read input
-
-File handling (>, >>)
-
-String concatenation
-
-
-# How to Run Scripts
-
-Step 1: Give permission
-
-->chmod +x script_name.sh
-
-Step 2: Run script
-
-->./script_name.sh
-
-Example:
-...
-
+```bash
 ./script4_log_analyzer.sh /var/log/syslog error
-...
+```
 
-# Requirements
-•	Linux OS (Ubuntu recommended) 
-•	Bash shell 
-•	Basic commands: grep, awk, du, ls, uptime 
+---
 
-# Key Learnings
-•	Open source promotes transparency and collaboration 
-•	GPL v2 ensures freedom of modification and redistribution 
-•	Linux Kernel powers: 
-o	Servers 
-o	Android devices 
-o	Cloud infrastructure 
-o	Supercomputers 
+## 💻 Requirements
 
-#  Conclusion
+* Linux OS (Ubuntu recommended)
+* Bash shell
+* Basic commands: `grep`, `awk`, `du`, `ls`, `uptime`
+
+---
+
+## 🌍 Key Learnings
+
+* Open source promotes **transparency and collaboration**
+* GPL v2 ensures **freedom of modification and redistribution**
+* Linux Kernel powers:
+
+  * Servers
+  * Android devices
+  * Cloud infrastructure
+  * Supercomputers
+
+---
+
+## 📌 Conclusion
+
 The Linux Kernel is not just software — it is the foundation of modern computing. This project highlights how open-source principles enable large-scale innovation and collaboration.
+
+---
+
+## 📎 References
+
+* [https://www.kernel.org](https://www.kernel.org)
+* [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+* [https://opensource.org](https://opensource.org)
+* [https://linuxcommand.org](https://linuxcommand.org)
+
+---
+
+If you want, I can also:
+
+* Make a **perfect GitHub repo structure for you**
+* Or create **final polished PDF report format** 👍
+
 
