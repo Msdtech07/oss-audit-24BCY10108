@@ -199,9 +199,10 @@ Step 2: Run script
 ->./script_name.sh
 
 Example:
+...
 
-->./script4_log_analyzer.sh /var/log/syslog error
-
+./script4_log_analyzer.sh /var/log/syslog error
+...
 
 # Requirements
 •	Linux OS (Ubuntu recommended) 
@@ -217,6 +218,6 @@ o	Android devices
 o	Cloud infrastructure 
 o	Supercomputers 
 
-# 📌 Conclusion
+#  Conclusion
 The Linux Kernel is not just software — it is the foundation of modern computing. This project highlights how open-source principles enable large-scale innovation and collaboration.
 
